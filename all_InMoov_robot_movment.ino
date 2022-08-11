@@ -2,10 +2,10 @@
 //  Ain Shams University - Faculty of Engineering                   //
 //  Ain Shams Virtal Hospital                                       //
 //  HCM - Human Centered Mechatronics Lab.                          //
-// `InMoov Robot Project                                            //
+//  InMoov Robot Project                                            //
 //                                                                  // 
 //  This is a unique work for InMoov Robot at Ain Shams University  //
-//  and HCM - Human Centered Mechatronics Lab.                      //
+//  and HCM - Human Centered Mechatronics Lab                       //
 //                                                                  //
 //  by                                                              //
 //  Aly Mostafa Hafez                                               //
@@ -89,7 +89,7 @@
 // ===== RIGHT HAND Positions Limitations ===== //
 #define RIGHT_WRIST_MAX_POS         100  //Wrist
 #define RIGHT_WRIST_MIN_POS         400
-#define RIGHT_THUMP_MAX_POS         420 //Thump
+#define RIGHT_THUMP_MAX_POS         420  //Thump
 #define RIGHT_THUMP_MIN_POS         100
 #define RIGHT_INDEX_MAX_POS         480  //Index
 #define RIGHT_INDEX_MIN_POS         100
@@ -434,7 +434,7 @@ void loop()
     }
     //The following condition spreads all of the RGIHT hand fingers
     else if (z == '3') {
-      RightI2C.setPWM(thump_pin_number,  0 , right_thump_spread_pos); /
+      RightI2C.setPWM(thump_pin_number,  0 , right_thump_spread_pos);
       RightI2C.setPWM(index_pin_number,  0 , right_index_spread_pos);
       RightI2C.setPWM(middle_pin_number, 0 , right_middle_spread_pos);
       RightI2C.setPWM(ring_pin_number,   0 , right_ring_spread_pos);
