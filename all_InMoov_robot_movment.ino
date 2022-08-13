@@ -1,30 +1,28 @@
-/* ================================================================ //
-//  Ain Shams University - Faculty of Engineering                   //
-//  Ain Shams Virtal Hospital                                       //
-//  HCM - Human Centered Mechatronics Lab.                          //
-//  InMoov Robot Project                                            //
-//                                                                  // 
-//  This is a unique work for InMoov Robot at Ain Shams University  //
-//  and HCM - Human Centered Mechatronics Lab                       //
-//                                                                  //
-//  by                                                              //
-//  Aly Mostafa Hafez                                               //
-//  and                                                             //
-//  Hossam Nasr Elghareeb                                           //
-//                                                                  //
-//  Date: JUNE 2022                                                 //
-//                                                                  //
-//  Hardware used:                                                  //
-//  Arduino Mega                                                    //
-//  2 PCA9685 I2C Servo Drivers                                     //
-//  24 Servomotors                                                  //
-//  HC-05 Bluetooth Module                                          //
-//                                                                  //
-//  Please check the datasheet example of PCA9685,                  //
-//  it was written by Limor Fried/Ladyada for Adafruit Industries,  //
-//  find at: http://www.adafruit.com/products/815                   //
-//                                                                  //
-// ================================================================ */
+/* ================================================================= //
+//  Ain Shams University - Faculty of Engineering                    //
+//  Ain Shams Virtal Hospital                                        //
+//  HCM - Human Centered Mechatronics Lab.                           //
+//  InMoov Robot Project                                             //
+//                                                                   //
+//  This is a unique work for InMoov Robot                           //
+//  at Human Centered Mechatronics (HCM) Lab - Ain Shams University  //
+//  by:                                                              //
+//  ☑ Aly Mostafa Hafez                                              //
+//  ☑ Hossam Nasr Elghareeb                                          //
+//                                                                   //
+//  Date: JUNE 2022                                                  //
+//                                                                   //
+//  Hardware used:                                                   //
+//  · Arduino Mega                                                   //
+//  · 2 PCA9685 I2C Servo Drivers                                    //
+//  · 24 Servomotors                                                 //
+//  · HC-05 Bluetooth Module                                         //
+//                                                                   //
+//  Please check the datasheet example of PCA9685,                   //
+//  it was written by Limor Fried/Ladyada for Adafruit Industries,   //
+//  find at: http://www.adafruit.com/products/815                    //
+//                                                                   //
+// ================================================================- */
 
 #include  <Wire.h>
 #include  <Adafruit_PWMServoDriver.h>
